@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="./contacts.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./Pics/daisylogo.png" alt="">
+                <a href="#">Floral.uz</a>
+            </div>
+            <ul  class="navbar">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./AboutUs.html">About Us</a></li>
+                <li><a href="./services.html">Our Services</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./pricing.html">Pricing</a></li>
+                <li><a href="./contacts.html">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="text">
+                <h1>How to get to Us</h1>
+                <div class="buttons">
+                    <button id="btn1" onclick="complaint()">Wanna complain? &#9785;</button>
+                    <button id="btn2" onclick="positive()">Leave positive comment?&#9786;</button>
+                    <button id="btn3" onclick="comment()">Contact Us?&#9990;</button>
+                </div>
+                <p>Take a look at the form below, please</p>
+            </div>
+        </div>
+    </header>
+    <div class="box-2">
+        <form name="form" method="GET" id="form" action="GET">
+            <div class="cardcha">
+                <label for="name">Name: </label>
+                <input  type="text" name="name" id="name" placeholder="John">
+            </div>
+            <div class="cardcha">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="myemail@gmail.com">
+            </div>
+            <div class="cardcha">
+                <label for="phone">Phone Number: </label>
+                <input type="number" name="phone" id="phone" placeholder="+99890 123 45 67">
+            </div>
+            <div class="cardcha">
+                <label for="message">Your Message: </label>
+                <input type="text" name="message" id="message" placeholder="...">
+            </div>
+            <div class="cardcha card-last">
+                <label>...</label>
+                <button name="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="social-media">
+        <h1>Our social Media pages</h1>
+        <div class="cards">
+            <figure class="card">
+                <a href="https://www.facebook.com/login/">Facebook</a>
+                <img src="./Pics/facebook.jpg" alt="">
+            </figure>
+            <figure class="card">
+                <a href="https://www.instagram.com/accounts/login/">Instagram</a>
+                <img src="./Pics/instagram.jpg" alt="">
+            </figure>
+            <figure class="card">
+                <a href="https://web.telegram.org/?legacy=1">Telegram</a>
+                <img src="./Pics/telegram.jpg" alt="">
+            </figure>
+            <figure class="card">
+                <a href="https://twitter.com/login">Twitter</a>
+                <img src="./Pics/twitter.jpg" alt="">
+            </figure>
+        </div>
+    </div>
+     <!-- footer -->
+
+     <footer>
+        <div class="box">
+            <div class="card card1">
+                <img src="./Pics/daisylogo.png" alt="">
+                <a href="./homepage.html">Floral.uz</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non aperiam ex, quos nam facere ad aspernatur doloribus praesentium nihil deleniti id nostrum velit voluptate a temporibus consequuntur distinctio esse sit.</p>
+            </div>
+            <div class="card card2">
+                <p>Contact Details</p>
+                <ul>
+                    <li>&#9742; Tashkent, 100120, Uzbekistan</li>
+                    <li>&#9993; info@example.com</li>
+                    <li>&#9743; +99890 123 45 67</li>
+                    <li>&#9998; +99890 987 65 43</li>
+                </ul>
+            </div>
+            <div class="card card3">
+                <p>Opening hours</p>
+                <table>
+                    <tr>
+                      <td class="head">Days</td>
+                      <td class="head">Hours</td>
+                    </tr>
+                    <tr>
+                      <td>Monday-Thursday</td>
+                      <td>8am-9pm</td>
+                    </tr>
+                    <tr>
+                      <td>Friday-Saturday</td>
+                      <td>10am-2pm</td>
+                    </tr>
+                    <tr>
+                      <td>Sunday</td>
+                      <td>9am-5pm</td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    
+
+    <script src="./contacts.js"></script>
+</body>
+</html>
