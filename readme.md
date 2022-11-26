@@ -12,7 +12,7 @@ https://jigsaw.w3.org/css-validator  sites, and no severe errors were found.
 
 The website is hosted online on Github with multiple commits on a public repository and hosted on GitHub Pages.
 
-The URL to Github repository:
+The URL to Github repository: https://github.com/00012907/00012907.github.io.git
 
 
 The URL to a hosted website:
